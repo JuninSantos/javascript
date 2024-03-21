@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuação Do DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="botao">
+        <p> Botão 1</p>
+    </div>
+
+    <div class="box"></div>
+    
+
+    <script>
+    var botao = document.querySelector('.botao');
+    var box = document.querySelector('.box');
+    var oculto = true;
+
+    console.log(botao)
+
+    botao.addEventListener('click', () => {
+        
+        if(oculto){
+            //*box.classList.remove('box-inativo')
+            box.classList.remove('aumentar')
+            oculto = false
+        }
+        else{
+            //*box.classList.add('box-inativo')
+            box.classList.add('aumentar')
+            oculto = true
+        }
+    
+    });
+    //*Função de callback, onde a função é criado e executadi ai mesmo tempo, utilizado dentro de eventos..Não pode ser utilizado novamente em outro momento do código
+    </script>
+</body>
+
+</html>

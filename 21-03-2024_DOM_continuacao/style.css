@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(53, 48, 68);
+}
+
+.botao{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(209, 233, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 215, 223);
+    border-radius: 10px;
+}
+
+.box-inativo{display: none;}
+.aumentar{
+    width: 600px;
+    height: 600px;
+}
