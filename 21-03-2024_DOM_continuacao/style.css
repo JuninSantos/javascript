@@ -1,11 +1,12 @@
 body{
     background-color: rgb(53, 48, 68);
+    margin: 0;
 }
 
 .botao{
-    width: 100px;
-    height: 70px;
-    background-color: rgb(209, 233, 255);
+    width: 200px;
+    height: 80px;
+    background-color: rgb(193, 225, 255);
     color: rgb(0, 0, 0);
     border-radius: 8px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -14,17 +15,68 @@ body{
     align-items: center;
     margin: 8px;
     cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box{
-    width: 100px;
-    height: 100px;
-    background-color: rgb(255, 215, 223);
-    border-radius: 10px;
+    width: 240px;
+    height: 215px;
+    background-image: url(../21-03-2024_DOM_continuacao/meme1.jpg);
+    border-radius: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+
+.botao:hover{
+    background-color: rgb(99, 187, 255);
+    transition: 0.5s;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
 }
 
 .box-inativo{display: none;}
 .aumentar{
-    width: 600px;
-    height: 600px;
+    width: 443px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../21-03-2024_DOM_continuacao/meme.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    background-color: rgb(73, 113, 255);
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font: Poppins;
+    text-align: center;
+    color: white;
 }
